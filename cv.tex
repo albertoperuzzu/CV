@@ -1,0 +1,117 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[left=1.2cm, right=1.2cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{paracol}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{lmodern}
+\usepackage{tcolorbox} 
+\usepackage{indentfirst}
+\renewcommand{\familydefault}{\sfdefault}
+
+\titleformat{\section}{\bfseries\Large}{}{0pt}{}[\titlerule]
+
+\columnratio{0.27}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{paracol}{2}
+
+% LEFT COLUMN (27%)
+
+\begin{flushleft}
+    \includegraphics[width=0.9\linewidth]{profile.png}
+    \vspace{0.5cm}
+
+    {\huge \textbf{ALBERTO}}\\
+    \vspace{0.1cm}
+    {\huge \textbf{PERUZZU}}\\
+    \vspace{0.3cm}
+    \begin{tcolorbox}[colback=Goldenrod, colframe=lightgray, boxrule=0pt, left=0mm, right=0mm, top=0mm, bottom=0mm, width=\linewidth, enlarge left by=0mm, enlarge right by=0mm]
+    \raggedright
+    \vspace{0.5cm}
+    \textbf{Address:}\\Tradate (VA), Italy\\
+    \textbf{Phone:}\\ .......\\
+    \textbf{Email:}\\ \href{mailto:alberto.peruzzu@libero.it}{alberto.peruzzu@libero.it}\\
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/alberto-peruzzu-6b042a137/}{linkedin.com/in/alberto-peruzzu-6b042a137/}\\
+    \textbf{GitHub:} \href{https://github.com/albertoperuzzu}{github.com/albertoperuzzu}
+
+    \section{\faTags\ Skills}
+    \begin{center}
+
+      \parbox{\dimexpr\linewidth-2\fboxsep}{%
+        \raggedright
+        \textbf{Tech:} Java, Python, C, MySQL, JavaScript, Spring, Web API\\[0.2cm]
+        \textbf{Tools:} Adobe CMS, Jira, Confluence, GitHub, OpenLCA, AWS\\[0.2cm]
+        \textbf{Methodologies:} Project Management, Agile, Waterfall, LCA
+      }%
+
+    \end{center}
+
+    \section{\faGlobe\ Languages}
+    \textbf{Italian:} Native\\
+    \textbf{English:} Advanced
+
+    \section{\faHeart\ Hobbies}
+    Rock Climbing, Team Sports, Environmental Data Analysis
+    \vspace{0.5cm}
+\end{tcolorbox}
+\end{flushleft}
+
+\switchcolumn 
+
+% RIGHT COLUMN (73%)
+
+\section{\faUser\ Profile}
+
+\noindent Software Developer with a background in Environmental and Food Economics and a strong passion for sustainability. Experienced in developing tech solutions across multiple industries (plastics, fashion, tourism), I am looking for an opportunity where I can apply my digital skills to impactful projects. I am a quick learner, adaptable, and highly motivated to contribute to positive change.
+
+\section{\faBriefcase\ Work Experience}
+
+\textbf{Prokon Bry Air | Software Developer}\\
+\textit{2023 - Present, Chiasso (CH)}\\
+- Software development for humidity control in plastic production.\\
+- Hardware/software optimization for sensors.\\
+- Programming of HMI interfaces with UX/UI.\\[0.2cm]
+
+\textbf{Accenture Technology | Application Dev Analyst}\\
+\textit{2020 - 2023, Milan (IT)}\\
+- Back-end development and front-end integration with Adobe CMS.\\
+- Technical analysis and functional support.\\
+- Experience with Agile, Jira, and Confluence.\\[0.2cm]
+
+\textbf{Neos S.p.A. | Flight Attendant}\\
+\textit{2018 - 2020, Milan (IT)}\\
+- Communication with international clients.\\
+- Safety and emergency management on board.
+
+\section{\faGraduationCap\ Education}
+
+\textbf{University of Milan}\\
+MSc in Environmental and Food Economics (109/110)\\
+\textit{2016 - 2019}\\[0.2cm]
+
+\textbf{Wageningen University \& Research (NL)}\\
+Erasmus+ Program\\
+\textit{2017 - 2018}\\[0.2cm]
+
+\textbf{University of Milan}\\
+BSc in Political Science (110/110 cum Laude)\\
+\textit{2013 - 2016}
+
+\section{\faCertificate\ Certifications}
+\noindent - \textbf{Life Cycle Assessment – OpenLCA} (Udemy, 2025)\\
+- \textbf{Biodiversity Manager} (WWF – European Innovation, 2022)\\
+- \textbf{2021 UIIP Program – Digital Hub Academy} (Ariano Irpino, AV)\\
+- \textbf{Python Data Science Certificate} (IBM – EDX, 2020)\\
+- \textbf{Project Management – MicroMaster} (RIT – EDX, 2020)
+
+\end{paracol}
+
+\end{document}
