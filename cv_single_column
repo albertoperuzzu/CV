@@ -25,14 +25,14 @@
     \vspace{0.4cm}
     {\huge \textbf{ALBERTO PERUZZU}}\\[0.3cm]
     \textbf{Address:} Tradate (VA), Italy\hfill\\
-    \textbf{Phone:} .....\\
-    \textbf{Email:} \href{mailto:alberto.peruzzu@libero.it}{alberto.peruzzu@libero.it}\hfill\\
+    \textbf{Phone:} +39 3454756397\\
+    \textbf{Email:} \href{mailto:alberto.peruzzu@gmail.com}{alberto.peruzzu@gmail.com}\hfill\\
     \textbf{LinkedIn:} \href{https://www.linkedin.com/in/alberto-peruzzu-6b042a137/}{linkedin.com/in/alberto-peruzzu-6b042a137/}\\
     \textbf{GitHub:} \href{https://github.com/albertoperuzzu}{github.com/albertoperuzzu}
 \end{minipage}
 
 \section*{\faUser\ Profile}
-Software Developer with a background in Environmental and Food Economics and a strong passion for sustainability. Experienced in developing tech solutions across multiple industries (plastics, fashion, tourism), I am looking for an opportunity where I can apply my digital skills to impactful projects. I am a quick learner, adaptable, and highly motivated to contribute to positive change.
+Versatile Software Developer with a background in Environmental and Food Economics and a strong drive for building tech solutions with real-world impact. Experienced in full-stack development, microservices, and data visualization across industries like plastics, fashion, and tourism. Curious, fast learner, and team-oriented, I aim to bridge technology and sustainability through clean code and thoughtful design.
 
 \section*{\faBriefcase\ Work Experience}
 \textbf{Prokon Bry Air | Software Developer}\\
@@ -75,9 +75,23 @@ BSc in Political Science (110/110 cum Laude)\\
 
 \section*{\faTags\ Skills}
 \hangindent=1.5em
-\textbf{Tech:} Java, Python, C, MySQL, JavaScript, Spring, Web API\\
-\textbf{Tools:} Adobe CMS, Jira, Confluence, GitHub, OpenLCA, AWS\\
-\textbf{Methodologies:} Project Management, Agile, Waterfall, LCA
+\textbf{Coding:} Java, Python, C, JavaScript, TypeScript, Groovy, SQL\\
+\textbf{Frameworks \& Libraries:} Spring, Spring Boot, FastAPI, React, TensorFlow\\
+\textbf{Data \& Databases:} MySQL, SQLite, Relational DB Design\\
+\textbf{Tools \& DevOps:} GitHub, Maven, Jira, Confluence, Adobe Experience Platform, AWS, OpenLCA, CI/CD Pipelines, Test Environments, Version Control (Git \& BitBucket)\\
+\textbf{Technologies:} GraphQL, Docker* (basic familiarity), OAuth\\
+\textbf{Project \& Functional Skills:} Agile (Scrum), Project Management, Requirements Gathering, Functional Analysis, LCA (Life Cycle Assessment), Stakeholder Communication\\
+
+\section*{\faFolderOpenO\ Personal Projects}
+\hangindent=1.5em
+\textbf{RunAsOne} \hfill \href{https://github.com/albertoperuzzu/RunAsOne}{github.com/albertoperuzzu/RunAsOne}\\
+\textit{Python, FastAPI, React, TypeScript} \\
+Lightweight RESTful API to manage group running events, including user sign-up, event scheduling and real-time status updates. Built to gain hands-on experience with backend design and database interactions.\\
+
+\hangindent=1.5em
+\textbf{AppMusic} \hfill \href{https://github.com/albertoperuzzu/AppMusic}{github.com/albertoperuzzu/AppMusic}\\
+\textit{Java, JavaFX, JavaScript} \\
+Desktop application simulating a music-library manager with playback control, search, and playlist creation. Developed to explore JavaFX UI design and reinforce object-oriented patterns in a standalone app.\\
 
 \section*{\faGlobe\ Languages}
 \hangindent=1.5em
