@@ -25,8 +25,8 @@
     \vspace{0.4cm}
     {\huge \textbf{ALBERTO PERUZZU}}\\[0.3cm]
     \textbf{Address:} Tradate (VA), Italy\hfill\\
-    \textbf{Phone:} +39 3454756397\\
-    \textbf{Email:} \href{mailto:alberto.peruzzu@gmail.com}{alberto.peruzzu@gmail.com}\hfill\\
+    \textbf{Phone:} +39 ....\\
+    \textbf{Email:} alberto....\hfill\\
     \textbf{LinkedIn:} \href{https://www.linkedin.com/in/alberto-peruzzu-6b042a137/}{linkedin.com/in/alberto-peruzzu-6b042a137/}\\
     \textbf{GitHub:} \href{https://github.com/albertoperuzzu}{github.com/albertoperuzzu}
 \end{minipage}
@@ -43,9 +43,10 @@ Versatile Software Developer with a background in Environmental and Food Economi
 
 \textbf{Accenture Technology | Application Dev Analyst}\\
 \textit{2020 - 2023, Milan (IT)}\\
-- Back-end development and front-end integration with Adobe CMS.\\
-- Technical analysis and functional support.\\
-- Experience with Agile, Jira, and Confluence.\\[0.2cm]
+- Led the development of customer-facing features from design to delivery, leading a team of 4–5 devs.\\
+- Acted as technical bridge between business analysts, functional team, and devs to refine requirements and ensure feasibility.\\
+- Hands-on backend development and frontend integration with Adobe CMS.\\
+- Contributed to Agile ceremonies and promoted a collaborative team culture using Jira and Confluence.\\[0.2cm]
 
 \textbf{Neos S.p.A. | Flight Attendant}\\
 \textit{2018 - 2020, Milan (IT)}\\
@@ -54,13 +55,13 @@ Versatile Software Developer with a background in Environmental and Food Economi
 
 \section*{\faGraduationCap\ Education}
 \textbf{University of Milan}\\
-MSc in Environmental and Food Economics (109/110)\hfill {2016 - 2019}\\
+MSc in Environmental and Food Economics (109/110)\hfill {2016 - 2019}\\[0.2cm]
 
 \textbf{Wageningen University \& Research (NL)}\\
-Erasmus+ Program\hfill {2017 - 2018}\\
+Erasmus+ Program\hfill {2017 - 2018}\\[0.2cm]
 
 \textbf{University of Milan}\\
-BSc in Political Science (110/110 cum Laude)\hfill {2013 - 2016}\\
+BSc in Political Science (110/110 cum Laude)\hfill {2013 - 2016}
 
 \section*{\faCertificate\ Certifications}
 \hangindent=1.5em
@@ -76,8 +77,8 @@ BSc in Political Science (110/110 cum Laude)\hfill {2013 - 2016}\\
 \textbf{Frameworks \& Libraries:} Spring, Spring Boot, FastAPI, React, TensorFlow\\
 \textbf{Data \& Databases:} MySQL, SQLite, Relational DB Design\\
 \textbf{Tools \& DevOps:} GitHub, Maven, Jira, Confluence, Adobe Experience Platform, AWS, OpenLCA, CI/CD Pipelines, Test Environments, Version Control (Git \& BitBucket)\\
-\textbf{Technologies:} GraphQL, Docker* (basic familiarity), OAuth\\
-\textbf{Project \& Functional Skills:} Agile (Scrum), Project Management, Requirements Gathering, Functional Analysis, LCA (Life Cycle Assessment), Stakeholder Communication\\
+\textbf{Technologies:} GraphQL, Docker (basic familiarity), OAuth\\
+\textbf{Project \& Functional Skills:} Agile (Scrum), Project Management, Requirements Gathering, Functional Analysis, LCA (Life Cycle Assessment), Stakeholder Communication
 
 \section*{\faFolderOpenO\ Personal Projects}
 \hangindent=1.5em
@@ -88,7 +89,7 @@ Lightweight RESTful API to manage group running events, including user sign-up, 
 \hangindent=1.5em
 \textbf{AppMusic} \hfill \href{https://github.com/albertoperuzzu/AppMusic}{github.com/albertoperuzzu/AppMusic}\\
 \textit{Java, JavaFX, JavaScript} \\
-Desktop application simulating a music-library manager with playback control, search, and playlist creation. Developed to explore JavaFX UI design and reinforce object-oriented patterns in a standalone app.\\
+Desktop application simulating a music-library manager with playback control, search, and playlist creation. Developed to explore JavaFX UI design and reinforce object-oriented patterns in a standalone app.
 
 \section*{\faGlobe\ Languages}
 \hangindent=1.5em
