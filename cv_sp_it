@@ -1,0 +1,155 @@
+\documentclass[11pt, a4paper]{article} 
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}  
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+\usepackage{FiraSans}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{cvblue}{HTML}{304263}
+
+% COMANDI PERSONALIZZATI %
+\newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}}
+\newcommand{\is}{\par\vskip.5ex plus .4ex}
+\newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+\begin{minipage}[t]{0.33\textwidth}
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex}
+\colorbox{cvblue!90}{\color{white}
+\kern0.09\textwidth\relax
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{1.0ex}
+
+\Large Alberto \textbf{\textsc{Peruzzu}} \normalsize 
+
+\null\hfill\includegraphics[width=0.65\textwidth]{profile.png}\hfill\null
+
+\headleft{Profilo}
+\textit{Sviluppatore software} versatile con un background in Economia Ambientale e una forte motivazione nel creare soluzioni tecnologiche con impatto reale. Esperienza nello sviluppo full-stack, microservizi e visualizzazione dati in settori come plastica, moda e turismo. Curioso, rapido ad imparare e orientato al lavoro di squadra, ambisco a unire tecnologia e sostenibilità attraverso codice pulito e design consapevole.
+
+\headleft{Contatti}
+\small
+\faEnvelope\ \href{mailto:alberto.peruzzu@gmail.com}{alberto.peruzzu@gmail.com} \\[0.4ex]
+\faPhone\ +39\,345\,47\,56\,397 \\[0.4ex]
+\faHome\ Via Garibaldi 10, Tradate (VA)\\[0.4ex]
+\faLinkedin\ \href{https://www.linkedin.com/in/alberto-peruzzu-6b042a137/}{Alberto Peruzzu} \\[0.4ex]
+\faGithub\ \href{https://github.com/albertoperuzzu}{github.com/albertoperuzzu}
+\normalsize
+
+\headleft{Lingue}
+\textbf{Inglese:} Professionale \\[0.4ex]
+\textbf{Italiano:} Madrelingua
+
+\headleft{Competenze}
+\small
+\textbf{• Linguaggi:} Java, Python, C, SQL, JavaScript, TypeScript, Groovy\\[0.5ex]
+\textbf{• Framework:} Spring, Spring Boot, FastAPI, React, TensorFlow\\[0.5ex]
+\textbf{• Dati:} MySQL, SQLite\\[0.5ex]
+\textbf{• Strumenti:} GitHub, Maven, Jira, Confluence, Adobe Experience Platform, AWS, OpenLCA,
+CI/CD, ambienti di test, controllo versione (Git \& BitBucket)\\[0.5ex]
+\textbf{• Tecnologie:} REST, GraphQL, Docker (base), OAuth\\[0.5ex]
+\textbf{• Gestione:} Agile (Scrum), Project Management, Raccolta Requisiti,
+Analisi Funzionale, LCA (Life Cycle Assessment), Comunicazione con stakeholder
+\normalsize
+
+\end{minipage}%
+\kern0.09\textwidth\relax
+}
+\end{minipage}
+\hskip2.0em
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}
+
+\vspace{2ex}
+
+\headright{Esperienza}
+
+\textsc{Sviluppatore Software} presso \textbf{Prokon Bry Air} \\ 
+\textit{Chiasso, CH} \dates{10/2023--Presente}
+
+\smaller{Sviluppo software per il controllo dell’umidità nella produzione plastica.} \\
+\smaller{Ottimizzazione hardware/software per sensori.} \\
+\smaller{Programmazione di interfacce HMI con attenzione a UX/UI.}
+
+\vspace{1.5ex}
+
+\textsc{Application Dev Analyst} presso \textbf{Accenture} \\
+\textit{Milano, IT} \dates{06/2020--10/2023}
+
+\smaller{Guidato lo sviluppo di funzionalità per il cliente, anche coordinando un team di 4–5 sviluppatori.} \\
+\smaller{Ruolo di collegamento tecnico tra analisti, team funzionale e sviluppatori per affinare i requisiti.} \\
+\smaller{Sviluppo backend pratico e integrazione frontend con Adobe CMS.} \\
+\smaller{Partecipazione attiva a cerimonie Agile e promozione di una cultura collaborativa con Jira e Confluence.}
+
+\vspace{1.5ex}
+
+\textsc{Assistente di Volo} presso \textbf{Neos S.p.A.} \\
+\textit{Milano, IT} \dates{10/2018--05/2020}
+
+\smaller{Comunicazione con clientela internazionale.} \\
+\smaller{Gestione sicurezza ed emergenze a bordo.}
+
+\headright{Formazione}
+
+MSc in \textbf{Environmental and Food Economics} \\
+presso \textsc{Università degli Studi di Milano} \dates{09/2016--03/2019} \\
+\textit{Valutazione: 109/110}
+
+\vspace{1.5ex}
+
+\textbf{Programma Erasmus+} \\
+presso \textsc{Wageningen University \& Research (NL)} \dates{08/2017--05/2018}
+
+\vspace{1.5ex}
+
+BSc in \textbf{Scienze Politiche} \\
+presso \textsc{Università degli Studi di Milano} \dates{09/2013--07/2016} \\
+\textit{Valutazione: 110/110 con lode}
+
+\headright{Certificazioni}
+
+\smaller{\textsc{Life Cycle Assessment – OpenLCA }} \dates{Udemy - 2025} \\
+\smaller{\textsc{Manager della Biodiversità}} \dates{WWF \& EIIS - 2022} \\
+\smaller{\textsc{Digital Hub Academy}} \dates{UIIP - 2021} \\
+\smaller{\textsc{Python per Data Science}} \dates{IBM – EDX - 2020} \\
+\smaller{\textsc{Project Management – MicroMaster}} \dates{RIT - EDX - 2020}
+
+\headright{Progetti Personali}
+
+\textbf{RunAsOne} {\hfill\hypersetup{urlcolor=black}\href{https://github.com/albertoperuzzu/RunAsOne}{github.com/albertoperuzzu/RunAsOne}}\\
+\textit{Python, FastAPI, React, TypeScript}\\
+\smaller{API RESTful leggera per gestire eventi di corsa di gruppo: iscrizione utenti, programmazione eventi e aggiornamenti in tempo reale. Sviluppato per esercitarsi nel backend e nelle interazioni con database.}
+
+\vspace{1.5ex}
+
+\textbf{AppMusic} {\hfill\hypersetup{urlcolor=black}\href{https://github.com/albertoperuzzu/AppMusic}{github.com/albertoperuzzu/AppMusic}}\\
+\textit{Java, HTML, JavaScript}\\
+\smaller{Applicazione desktop per la gestione di una libreria musicale con controlli di riproduzione, ricerca e creazione playlist. Progetto creato per approfondire JavaFX e rafforzare la programmazione OOP.}
+
+\end{minipage}
+
+\end{document}
