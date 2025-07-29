@@ -1,0 +1,156 @@
+\documentclass[11pt, a4paper]{article} 
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[british]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}  
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+\usepackage{FiraSans}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{cvblue}{HTML}{304263}
+
+% USER COMMAND DEFINITIONS %
+\newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}}
+\newcommand{\is}{\par\vskip.5ex plus .4ex}
+\newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+\begin{minipage}[t]{0.33\textwidth}
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex}
+\colorbox{cvblue!90}{\color{white}
+\kern0.09\textwidth\relax
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{1.0ex}
+
+\Large Alberto \textbf{\textsc{Peruzzu}} \normalsize 
+
+\null\hfill\includegraphics[width=0.65\textwidth]{profile.png}\hfill\null
+
+\headleft{Profile}
+Versatile \textit{Software Developer} with a background in Environmental Economics and a strong drive for building tech solutions with real-world impact. Experienced in full-stack development, microservices, and data visualization across industries like plastics, fashion, and tourism. Curious, fast learner, and team-oriented, I aim to bridge technology and sustainability through clean code and thoughtful design.
+
+\headleft{Contact details}
+\small
+\faEnvelope\ \href{mailto:alberto.peruzzu@gmail.com}{alberto.peruzzu@gmail.com} \\[0.4ex]
+\faPhone\ +39\,345\,47\,56\,397 \\[0.4ex]
+\faHome\ Via Garibaldi 10, Tradate (VA), Italy\\[0.4ex]
+\faLinkedin\ \href{https://www.linkedin.com/in/alberto-peruzzu-6b042a137/}{Alberto Peruzzu} \\[0.4ex]
+\faGithub\ \href{https://github.com/albertoperuzzu}{github.com/albertoperuzzu}
+\normalsize
+
+\headleft{Languages}
+\textbf{English:} Professional \\[0.4ex]
+\textbf{Italian:} Native
+
+\headleft{Skills}
+\small
+\textbf{• Coding:} Java, Python, C, SQL, JavaScript, TypeScript, Groovy\\[0.5ex]
+\textbf{• Frameworks:} Spring, Spring Boot, FastAPI, React, TensorFlow\\[0.5ex]
+\textbf{• Data:} MySQL, SQLite\\[0.5ex]
+\textbf{• Tools:} GitHub, Maven, Jira, Confluence, Adobe Experience Platform, AWS, OpenLCA,
+CI/CD Pipelines, Test Environments, Version Control (Git \& BitBucket)\\[0.5ex]
+\textbf{• Tech:} REST, GraphQL, Docker (basic familiarity), OAuth\\[0.5ex]
+\textbf{• PM:} Agile (Scrum), Project Management, Requirements Gathering,
+Functional Analysis, LCA (Life Cycle Assessment), Stakeholder Communication
+\normalsize
+
+\end{minipage}%
+
+\kern0.09\textwidth\relax
+}
+\end{minipage}
+\hskip2.0em
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}
+
+\vspace{2ex}
+
+\headright{Experience}
+
+\textsc{Software Developer} at \textbf{Prokon Bry Air} \\
+\textit{Chiasso, CH} \dates{10/2023--Present}
+
+\smaller{Software development for humidity control in plastic production.} \\
+\smaller{Hardware/software optimization for sensors.} \\
+\smaller{Programming of HMI interfaces with UX/UI.}
+
+\vspace{1ex}
+
+\textsc{Application Dev Analyst} at \textbf{Accenture} \\
+\textit{Milano, IT} \dates{06/2020--10/2023}
+
+\smaller{Led the development of customer-facing features from design to delivery, leading a team of 4–5 devs.} \\
+\smaller{Acted as technical bridge between business analysts, functional team, and devs to refine requirements and ensure feasibility.} \\
+\smaller{Hands-on backend development and frontend integration with Adobe CMS.} \\
+\smaller{Contributed to Agile ceremonies and promoted a collaborative team culture using Jira and Confluence.}
+
+\vspace{1ex}
+
+\textsc{Flight Attendant} at \textbf{Neos S.p.A.} \\
+\textit{Milano, IT} \dates{10/2018--05/2020}
+
+\smaller{Communication with international customers.} \\
+\smaller{Safety and emergency management on board.}
+
+\headright{Education}
+
+MSc in \textbf{Environmental and Food Economics} \\
+at \textsc{University of Milan} \dates{09/2016--03/2019} \\
+\textit{Evaluation: 109/110}
+
+\vspace{1ex}
+
+\textbf{Erasmus + Program} \\
+at \textsc{Wageningen University \& Research (NL)} \dates{08/2017--05/2018}
+
+\vspace{1ex}
+
+BSc in \textbf{Political Sciences} \\
+at \textsc{University of Milan} \dates{09/2013--07/2016} \\
+\textit{Evaluation: 110/110 cum laude}
+
+\headright{Certifications}
+
+\smaller{\textsc{Life Cycle Assessment – OpenLCA }} \dates{Udemy - 2025} \\
+\smaller{\textsc{Biodiversity Manager}} \dates{WWF \& EIIS - 2022} \\
+\smaller{\textsc{Digital Hub Academy}} \dates{UIIP - 2021} \\
+\smaller{\textsc{Python for Data Science}} \dates{IBM – EDX - 2020} \\
+\smaller{\textsc{Project Management – MicroMaster}} \dates{RIT - EDX - 2020}
+
+\headright{Personal Projects}
+
+\textbf{RunAsOne} {\hfill\hypersetup{urlcolor=black}\href{https://github.com/albertoperuzzu/RunAsOne}{github.com/albertoperuzzu/RunAsOne}}\\
+\textit{Python, FastAPI, React, TypeScript}\\
+\smaller{Lightweight RESTful API to manage group running events, including user sign-up, event scheduling and real-time status updates. Built to gain hands-on experience with backend design and database interactions.}
+
+\vspace{1.5ex}
+
+\textbf{AppMusic} {\hfill\hypersetup{urlcolor=black}\href{https://github.com/albertoperuzzu/AppMusic}{github.com/albertoperuzzu/AppMusic}} \\
+\textit{Java, HTML, JavaScript}\\
+\smaller{Desktop application simulating a music-library manager with playback control, search, and playlist creation. Developed to explore JavaFX UI design and reinforce object-oriented patterns in a standalone app.}
+
+\end{minipage}
+
+\end{document}
